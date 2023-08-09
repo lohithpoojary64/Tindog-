@@ -98,34 +98,9 @@ align-items:end;
   font-size: 30px;
 }
 
-.q{
-  display: grid;
-  grid-template-columns: span 4;
-  grid-template-rows: auto;
-  margin-top: 5%;
-  
-}
-#q{
-  width:200px;
-  display: grid;
-  grid-area: 1 / 1 / 1 / 1;
-}
-#w{
-  width:200px; 
-  display: grid;
-  grid-area: 1 / 2 / 1 / 2 ;
-}
 
-#e{
-  width:200px; 
-  display: grid;
-  grid-area: 1 / 3 / 1 / 3 ;
-}
-#r{
-  width:100px; 
-  display: grid;
-  grid-area: 1 / 4 / 1 / 4 ;
-}
+  
+
 #footer{
   
   background: linear-gradient(300deg, #00bfff, #ff4c68, #d32d80);
@@ -259,7 +234,7 @@ align-items:end;
   </div> 
   </section>
   <!-- Testimonial -->
-  <section id="testimonial">
+  <section  id="testimonial">
     <div class="my-5 ">
       <div class="p-5 text-center bg-body-tertiary">
         <div class="container py-5 ">
@@ -269,21 +244,26 @@ align-items:end;
             <p class="col-lg-8 mx-auto lead">
             Pebbles, New York
             </p>
-           <div class="q">
-               <img id="q" src="./images/techcrunch.png" alt="tech">
-       
-       
-                <img id="w" src="./images/mashable.png" alt="tech">
-      
-      
-                 <img id="e" src="./images/bizinsider.png" alt="tech">
-    
-    
-                 <img id="r" src="./images/tnw.png" alt="tech">
-            </div>
        </div>
+      <div class="container">
+       <div class="row">
+          <div class="col-lg-3 col-sm-12">
+           <img id="q" src="./images/techcrunch.png" alt="techcrunch" height="30px">
+          </div>
+          <div class="col-lg-3 col-sm-12">
+             <img id="w" src="./images/mashable.png" alt="mashable" height="30px">
+            </div>
+             <div class="col-lg-3 col-sm-12">
+
+              <img id="e" src="./images/bizinsider.png" alt="business insider" height="30px">
+            </div>
+              <div class="col-lg-3 col-sm-12">
+               <img id="r" src="./images/tnw.png" alt="the next web" height="30px">
+              </div>
         </div>
       </div>
+    
+      
     </div>
   </section>
   <!-- Pricing -->
